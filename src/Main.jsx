@@ -2,7 +2,7 @@ import React from "react";
 
 function Main(){
 
-    var name = 'Prajwal Hasbe';
+    var name = 'Prajwal Hasabe';
 
     let ott = {
         webseries: 'Squid Game',
