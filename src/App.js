@@ -1,20 +1,24 @@
- 
-import FunctionalComponent from './view/FunctionalComponent.jsx';
-import ClassComponent from './view/ClassComponent.jsx';
-
-import './App.css'; 
-// import Main from './Main';
-
+import './App.css';
+//    
+import Parent1 from './view/Parent1';
+// import ParentFn from './view/ParentFn';
+import ParentFn1 from './view/ParentFn1';
 
 
 function App() {
   return (
-    <div>
-     <FunctionalComponent/>
-     <ClassComponent/>
-     
-    </div>
-  );
-}
+    <div className="App">
+      <h1>
+        {/* <ClassComponent/>
+        <FunctionalComponent/>
+        <Parent/>
+        <ParentFn/> */}
+        <ParentFn1/>
+        <Parent1 />
+      </h1>
 
+    </div>
+    
+  );
+} 
 export default App;
